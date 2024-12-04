@@ -494,4 +494,16 @@ ol, ul{
      .common{
         transform: scale(0.9);
     }
+    .top-left-1{
+    top: 40%;
+    left: 3%;
+}
+.top-right{
+    top: -10%;
+    right: 5%;
+}
+.top-right-2{
+     top: -15%;
+    right: 20%;
+}
 }
