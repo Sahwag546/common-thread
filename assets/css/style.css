@@ -299,6 +299,7 @@ padding-top: 20px;
     justify-content: center;
     border-radius: 100px;
     transition: all 300ms linear;
+    cursor: pointer;
 }
 .bg-border:hover{
    background: var(--fc-orange);
@@ -361,6 +362,9 @@ ol, ul{
 .z-1{
     z-index: 1 !important;
     position: relative;
+}
+.common{
+ cursor: pointer;
 }
 
 /* nav-responsive  */
