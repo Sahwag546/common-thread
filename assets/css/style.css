@@ -480,6 +480,17 @@ ol, ul{
     .common{
         transform: scale(0.6) !important;
     }
+    .d-flex-none{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .bottom-text{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .sm-pt-0{
+        padding-top: 0;
+    }
 }
 @media (max-width:768px) {
     .heading{
