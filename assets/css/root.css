@@ -1,0 +1,59 @@
+:root {
+    --fs-16: 16px;
+    --fs-70: 70px;
+    --fs-50: 50px;
+    --fw-300: 300;
+    --fw-400: 400;
+    --fw-500: 500;
+    --fw-600: 600;
+    --fw-700: 700;
+
+    --fc-white: white;
+    --fc-grey:  #BEBEBE;
+    --fc-light-white: #bdbdbd;
+    --fc-orange: #FF5A4E;
+    --fc-green: #00BFC3;
+    --fc-purple: #8B35E2;
+    --fc-sky-blue: #00B2FF;
+    --fc-yellow: #FFA800;
+    --fc-light-red: #FF4560;
+    --fc-black: #181717;
+    --fc-white-light: #b9b9b9;
+    --fc-slate-gray: #4f4e4e;
+}
+
+@media (max-width:968px) {
+    :root {
+        --fs-70: 60px;
+        --fs-50: 40px;
+        --fs-lg: 20px;
+        --fs-xl: 24px;
+        --fs-2xl: 30px;
+        --fs-3xl: 38px;
+        --fs-4xl: 82px;
+    }
+}
+
+@media (max-width:768px) {
+    :root {
+        --fs-70: 40px;
+        --fs-50: 30px;
+        --fs-lg: 18px;
+        --fs-xl: 22px;
+        --fs-2xl: 26px;
+        --fs-3xl: 30px;
+        --fs-4xl: 76px;
+    }
+}
+
+@media (max-width:568px) {
+    :root {
+        --fs-sm: 14px;
+        --fs-md: 16px;
+        --fs-lg: 16px;
+        --fs-xl: 18px;
+        --fs-2xl: 22px;
+        --fs-3xl: 24px;
+        --fs-4xl: 68px;
+    }
+}
