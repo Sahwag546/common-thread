@@ -494,7 +494,7 @@ ol, ul{
 }
 @media (max-width:768px) {
     .heading{
-        line-height: 70px;
+        line-height: 50px;
     }
     .heading-2{
         line-height: 50px;
